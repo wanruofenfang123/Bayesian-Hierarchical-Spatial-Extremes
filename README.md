@@ -1,1 +1,1 @@
-# Bayesian-Hierarchical-Spatial-Extremes-
+# Bayesian-Hierarchical-Spatial-Extremes
