@@ -1,10 +1,7 @@
 # Bayesian-Hierarchical-Spatial-Extremes
 
 
-### R codes for ###
-### Assessing the Risk of Disruption of Wind Turbine Operations ###
-### in Saudi Arabia Using Bayesian Spatial Extremes ###
-### Wanfang Chen, Stefano Castruccio and Marc G. Genton ###
+This repository contains the R codes for the paper entitled "Assessing the Risk of Disruption of Wind Turbine Operations in Saudi Arabia Using Bayesian Spatial Extremes" by Wanfang Chen, Stefano Castruccio and Marc G. Genton
 
 The original WRF dataset produced by Yip (2018) is proprietary and confidential at the moment. One needs to prepare the necessary cell-wise data information (contained in "cell.dat" and "exc.dat") based on his/her own dataset in order to run the R codes to perform spatial clustering ("SpatialCluster.R") and run the Bayesian Hierarchical model with parallel computing ("RunModel.R").  
 
