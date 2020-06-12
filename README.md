@@ -1,7 +1,7 @@
 # Bayesian-Hierarchical-Spatial-Extremes
 
 
-This repository contains the R codes for the paper entitled "Assessing the Risk of Disruption of Wind Turbine Operations in Saudi Arabia Using Bayesian Spatial Extremes" by Wanfang Chen, Stefano Castruccio and Marc G. Genton
+This repository contains the R codes for the paper entitled "Assessing the Risk of Disruption of Wind Turbine Operations in Saudi Arabia Using Bayesian Spatial Extremes" by Wanfang Chen, Stefano Castruccio and Marc G. Genton.
 
 The original WRF dataset produced by Yip (2018) is proprietary and confidential at the moment. One needs to prepare the necessary cell-wise data information (contained in "cell.dat" and "exc.dat") based on his/her own dataset in order to run the R codes to perform spatial clustering ("SpatialCluster.R") and run the Bayesian Hierarchical model with parallel computing ("RunModel.R").  
 
@@ -23,7 +23,7 @@ The original WRF dataset produced by Yip (2018) is proprietary and confidential 
 
 The GMLEs can be obtained by using adapted functions in R (e.g., the "fpot" function in the "evd" package) with the Martins and Stedinger prior added to the log likelihood function.
 
-"exc.dat" is a data matrix combining the threshold exceedances for each of the grid cells.
+"exc.dat" is a data matrix combining the threshold exceedances for each of the grid cells in two columns:
 * cell: label for the grid cell
 * ws: wind speed values exceeding the chosen threshold 
 
