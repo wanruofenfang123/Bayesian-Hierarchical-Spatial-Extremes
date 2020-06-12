@@ -6,8 +6,8 @@ This repository contains the R codes for the paper entitled "Assessing the Risk 
 The original WRF dataset produced by Yip (2018) is proprietary and confidential at the moment. One needs to prepare the necessary cell-wise data information (contained in "cell.dat" and "exc.dat") based on his/her own dataset in order to run the R codes to perform spatial clustering ("SpatialCluster.R") and run the Bayesian Hierarchical model with parallel computing ("RunModel.R").  
 
 "cell.dat" is a data matrix where the columns contain the following information for each of the grid cells: 
-cell: label for the grid cell  
-lon: longitude
+* cell: label for the grid cell  
+* lon: longitude
 lat: latitude
 elev: elevation
 thold: threshold values
